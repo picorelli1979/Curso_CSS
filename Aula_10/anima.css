@@ -1,0 +1,33 @@
+body{background-color: black;}
+
+
+.Galeria {border: solid 2px white;
+         background:url(/Aula_10/rua.jpg) no-repeat center;
+        
+ 
+         animation-name: moto;
+         animation-duration: 200ms;
+         animation-timing-function: linear;
+         animation-delay: 5s;
+         animation-iteration-count: infinite;
+
+}
+
+
+img{
+       animation-name:moto;
+       animation-duration: 100ms;
+
+}
+
+@keyframes moto{
+    
+   from{
+    transform: translateX(0);
+}
+
+   to{
+    transform: translateX(calc(100vw-350px)); 
+}
+
+}

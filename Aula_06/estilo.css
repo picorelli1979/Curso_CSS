@@ -1,0 +1,50 @@
+
+*{
+  margin: 20px;
+}
+
+
+.Container{
+   position: relative;
+   width: 350px;
+   height: 400px;
+}
+
+.Carta{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.90s ease;
+}
+
+.Container:hover .Carta{
+   transform: rotateY(180deg);
+}
+
+img{
+   width: 100%;
+   height: 100%;
+
+}
+
+.Carta_Frente{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+   color: black;
+}
+
+.Carta_Fundo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    transform: rotateY(180deg);
+ }
+
+
+
+ 

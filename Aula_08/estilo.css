@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    font-family: sans-serif;
+    font-size: 300%;
+    height: 100vh;
+    place-items: center;
+}
+
+.Text_Revel{
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+.Text_Revel::after{
+    animation: Text 5s ease forwards;
+    background-color: blue;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+
+@keyframes Text {
+
+    from{
+         transform: translateX(-101%);
+    }
+
+    to{
+        transform: translateX(101%);
+    
+    }
+    
+}
+
+h1{
+   animation: Text_01 1ms 1s forwards;
+   opacity: 0 ;
+
+}
+
+
+@keyframes Text_01 {
+
+
+    to{
+        opacity: 1;
+    }
+    
+}

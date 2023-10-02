@@ -1,0 +1,19 @@
+
+header{
+   text-align: center;
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.Bola{
+     width: 300px;    
+     animation: Bola_Kick 400ms ease-in-out alternate infinite;
+}
+
+@keyframes Bola_Kick {
+    to {transform: translateY(40px);}
+}

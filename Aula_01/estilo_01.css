@@ -1,0 +1,169 @@
+.Container{
+    background-color: black;
+    border:  solid 5px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+}
+
+.Box01{
+
+   background-color: orange;
+   border: solid 5px black;
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.Obj01{
+    color : white;
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+
+.Obj01:hover{
+    cursor: pointer;
+    transform: scaleX(1.20)
+}
+
+.Box02{
+    color:white;
+    background-color: orange;
+    border: solid 5px black;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+.Obj02{
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    transition: all 5s;
+}
+
+.Obj02:hover{
+    cursor: pointer;
+    transform: rotate(-360deg);
+}
+.Box03{
+    color: white;
+    background-color: orange;
+    border: solid 5px black;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+
+.Obj03{
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    transition: all 5s;
+}
+
+.Obj03:hover{
+    cursor: pointer;
+    transform: translate(50px , -20px);
+}
+
+.Box04{
+    color: white;
+    background-color: orange;
+    border: solid 5px black;
+    width: 300px;
+    height: 200px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .Obj04{
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    transition: all 5s;
+}
+
+.Obj04:hover{
+    cursor: pointer;
+    transform: skew(30deg, -10deg);
+}
+
+.Box05{
+    color: white;
+    background-color: orange;
+    border: solid 5px black;
+    width: 300px;
+    height: 200px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .Obj05{
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    transform-origin: right top;
+    transition: all 5s;
+}
+
+.Obj05:hover{
+    cursor: pointer;
+    transform: rotate(1000deg);
+}
+
+.Box06{
+    color: white;
+    background-color: orange;
+    border: solid 5px black;
+    width: 300px;
+    height: 200px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .Obj06{
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    transform-origin: center;
+    transition: all 5s;
+}
+
+.Obj06:hover{
+    cursor: pointer;
+    transform: rotate(-180deg) scale(2) translate(10px, -90px);
+}
+
+

@@ -1,0 +1,42 @@
+body{
+   display: flex;
+}
+
+header{
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+}
+
+.Container{
+     display: grid;
+     place-items: center;
+     background-color: yellow;
+     border: solid 5px black;
+     width: 500px;
+     margin: 50px;
+     padding: 20px;
+
+}
+
+.loading{
+   display: flex;
+   background-color: black;
+}
+
+.Caixa{
+   animation: Loading_01 1s infinite; 
+   border: solid 10px; 
+   width: 150px;
+   height: 150px;
+   border-top-color: red;
+   border-radius: 50%;
+}
+
+@keyframes Loading_01 {
+
+    to{
+       transform: rotate(1turn);
+    }
+    
+}

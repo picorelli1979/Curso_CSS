@@ -1,0 +1,31 @@
+.Container{
+
+   border: solid black 5px; 
+   padding-top: 50px;
+   width: 500px;
+   height: 100px; 
+   text-align: center; 
+}
+
+button{
+    font: inherit;
+    cursor: pointer;
+
+}
+
+.Botão{
+    width: 140px;
+    height: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+    border-radius: 5px;
+    background-color: orange;
+    text-shadow: 1px 1px 0px;
+    box-shadow: 4px 4px 0px ;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.Botão:active{
+   box-shadow: 2px 2px 0px , inset 2px 2px 2px;
+
+}
